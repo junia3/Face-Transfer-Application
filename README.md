@@ -1,4 +1,4 @@
-# FaceTransferApplication
+# Face Transfer Application
 ---
 <p align="center"><img src="./Unity/Assets/capture.jpg" width="420" height="280"/></p>
 
