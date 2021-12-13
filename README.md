@@ -1,5 +1,7 @@
 # FaceTransferApplication
 ---
+<p align="center"><img src="./Unity/Assets/capture.jpg" width="420" height="280"/></p>
+
 - 연세대학교 전기전자공학부 학부 수업인 응용프로그래밍에서 진행한 final project source code입니다.
 
 - 구성은 Unity, Application으로 되어있는데 python server 코드는 여기를 참고해주시면 됩니다.
