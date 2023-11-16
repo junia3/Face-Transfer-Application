@@ -2,52 +2,37 @@
 ---
 <p align="center"><img src="./Unity/Assets/capture.jpg" width="420" height="280"/></p>
 
-- 연세대학교 전기전자공학부 학부 수업인 응용프로그래밍에서 진행한 final project source code입니다.
-
-- 구성은 Unity, Application으로 되어있는데 python server 코드는 여기를 참고해주시면 됩니다.
+This is the source code for the final project conducted in the Applied Programming course in the Department of Electrical and Electronic Engineering at Yonsei University. The structure consists of Unity and an application, and you can refer to this repository for the Python server code.
 
 > Unity
 > > Asset
 > > > image_test.py
 > > > ...
 
-- 또한 Unity project는 그대로 Unity폴더를 실행하면 됩니다. 에셋들을 그대로 넣어놨습니다.
+Additionally, you can run the Unity project by simply executing the Unity folder. The assets are kept as they are. The Python environment is set up as follows.
 
-- Python 환경은 다음과 같아요.
-
-```
-  pip install pytorch
-  pip install tensorflow
-  pip install cmake
-  pip install dlib
-  pip install FER(fer) 둘 중 하나
-  pip install opencv-python
-  pip install imutils
-  pip install socket
-```
-
-- 위의 환경을 설치하는데, dlib가 설치가 안되시는 분은 다음 링크를 봐주시면 됩니다.
-  https://updaun.tistory.com/entry/python-python-37-dlib-install-error
-  
-- 전체적인 구조는 python to unity가 서버로 구성되어있으며, python to java는 클라이언트와 서버쪽 통신입니다.
-
-- gethost로 기본적인 셋팅은 실행하면 알아서 되겠지만, 고정 ip가 서버로 쓰기에는 편리하고 좀 더 안정적이에요.
-
-
-# 개발 일지
 ---
-1. Blender 공부
 
-2. 팀원들과 아이디어 공유 및 구현 가능한 형태를 제시
+## Environmental settings
 
-3. 추가 기능 논의 및 자료조사 실시
+```
+  pip install pytorch, tensorflow, cmake, dlib, opencv-python, imutils, socket, FER
+```
 
-4. 첫 발표 후 방향을 제대로 잡고 개발 시작
+If you encounter issues installing dlib, please refer to the following link: [Click Here](https://updaun.tistory.com/entry/python-python-37-dlib-install-error)  
+The overall structure consists of Python to Unity as the server, and Python to Java for communication between the client and server.  
+While running the gethost should handle the basic setup automatically, using a fixed IP for the server is more convenient and stable.
 
-5. 익숙한 언어인 python 개발 시작. 오픈 소스를 활용
 
-6. C# 프로그래밍을 통해 간단히 로컬에서 python to unity 구현
+## Project timeline
 
-7. java 코딩을 통해 UI를 구성하고, 파이썬과 연결
+---
 
-8. 추가 작업 및 마무리
+1. Study Blender.
+2. Share ideas with team members and propose feasible implementation forms.
+3. Discuss additional features and conduct research.
+4. Start development with a clear direction after the initial presentation.
+5. Start development in Python, a familiar language. Utilize open source.
+6. Implement Python to Unity locally using C# programming.
+7. Construct UI through Java coding and connect with Python.
+8. Additional work and finalization.
